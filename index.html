@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Evan Liang - Home</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Evan Liang — Personal Website</title>
+  <meta name="description" content="The personal website and portfolio of Evan Liang." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="hero">
-        <h1>Welcome to Evan Liang's Blog</h1>
-        <p>Explore my world of ideas, projects, and insights.</p>
-    </div>
+  <header class="site-header">
+    <h1>Evan Liang</h1>
     <nav>
-        <a href="about.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
     </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h2>About</h2>
+      <p>Software engineer passionate about building elegant, high-performance web apps.</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <article>
+        <h3>Photo Restore</h3>
+        <p>Client-side toolkit to clean and restore old photos in the browser.</p>
+      </article>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+    </section>
+  </main>
+  <footer>
+    <p>© <span id="year"></span> Evan Liang</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
